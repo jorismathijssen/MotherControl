@@ -146,4 +146,4 @@ fabric.properties
 # .idea/misc.xml
 # *.ipr
 
-/
+/screens/weather/conf.json
