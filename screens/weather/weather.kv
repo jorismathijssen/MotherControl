@@ -26,57 +26,22 @@
 
 <WeatherSummary>
     BoxLayout:
-        padding: 5, 5
+        padding: 1,1
         orientation: "vertical"
-        Label:
-            text: root.location
-            size_hint_y: 0.2
 
         BoxLayout:
-            padding: 2
             id: bx_forecast
             orientation: "horizontal"
-            size_hint_y: 0.4
-            spacing: 5
-
-        BoxLayout:
-            padding: 2
-            id: bx_hourly
-            orientation: "horizontal"
-            size_hint_y: 0.4
-            spacing: 5
+            size_hint: 1,1
 
 <WeatherForecastDay>
     orientation: "vertical"
-    canvas.before:
-        Color:
-            rgba: 0.1, 0.1, 0.1, 1
-        Rectangle:
-            pos: self.pos
-            size: self.size
     BoxLayout:
-        size_hint_y: 0.4
-        orientation: "horizontal"
+        size_hint: 1,1
 
         Label:
             text: root.day
             font_size: 18
-
-        AsyncImage:
-            source: root.icon_url
     Label:
         text: root.weather
-
-<WeatherForecastHourly>
-    width: 100
-    size_hint_x: None
-    orientation: "vertical"
-    canvas.before:
-        Color:
-            rgba: 0.1, 0.1, 0.1, 1
-        Rectangle:
-            pos: self.pos
-            size: self.size
-
-    Label:
-        text: root.weather
+        font_size: 12

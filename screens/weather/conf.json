@@ -1,15 +1,15 @@
 {
     "screen": "WeatherScreen",
     "kv": "weather.kv",
-    "enabled": false,
-    "dependencies": ["requests"],
+    "enabled": true,
     "params": {
-        "key": "YOUR_API_KEY_HERE",
+        "key": "1259a5e0e5e0b671b560d6e46f51df72",
         "locations": [
-            {"name": "London",
-             "address": "UK/London.json"},
-            {"name": "Current location",
-             "address": "autoip.json"}
+            {
+             "Name": "Bergen op Zoom",
+             "lat": "51.501790",
+             "long": "4.340351"
+            }
          ]
     }
 }

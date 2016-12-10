@@ -100,9 +100,6 @@ class WordClockScreen(Screen):
             if hour == 0:
                 hour = 12
 
-            # Morning or afternoon?
-            ampm = "am" if nw.hour < 12 else "pm"
-
             # Get necessary key names
             h = "h{:02d}".format(hour)
             m = "m{:02d}".format(minute)
