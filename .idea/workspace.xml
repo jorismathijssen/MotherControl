@@ -1,15 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="46cbe334-8cbd-41b5-9983-182abd3b9204" name="Default" comment="Gitignore changes">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.designer/config.ini" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/RPi-InfoScreen-Kivy.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="" />
+    <list default="true" id="46cbe334-8cbd-41b5-9983-182abd3b9204" name="Default" comment="Removed unused folders">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="RPi-InfoScreen-Kivy.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -515,7 +509,8 @@
     <MESSAGE value="New way for defining the order of screens by setting it in the config.json." />
     <MESSAGE value="Fixed some missing imports" />
     <MESSAGE value="Gitignore changes" />
-    <option name="LAST_COMMIT_MESSAGE" value="Gitignore changes" />
+    <MESSAGE value="Removed unused folders" />
+    <option name="LAST_COMMIT_MESSAGE" value="Removed unused folders" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
