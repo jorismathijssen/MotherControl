@@ -1,9 +1,9 @@
+import collections
 import imp
-import os
 import json
+import os
 
-# Constants that are used to find plugins
-PluginFolder = "./screens"
+PluginConfig = "./config.json"
 PluginScript = "screen.py"
 ScreenConf = "conf.json"
 
@@ -12,16 +12,18 @@ def getPlugins(inactive=False):
     plugins = []
     a = 1
 
-    # Get the contents of the plugin folder
-    possibleplugins = os.listdir(PluginFolder)
+    # Load in the config.json file in the root directory
+    conf = json.load(open(os.path.join(PluginConfig)), object_pairs_hook=collections.OrderedDict)
 
-    # Loop over it
-    for i in possibleplugins:
-        location = os.path.join(PluginFolder, i)
+    # Get the screens in the json file
+    screens = conf.get("screens")
+
+    # Loop over the screens and get their name and location
+    for name, location in screens.items():
 
         # Ignore anything that doesn't meet our criteria
         if (not os.path.isdir(location) or PluginScript not in
-                                           os.listdir(location)):
+            os.listdir(location)):
             continue
 
         # Load the module info into a variavls
@@ -46,7 +48,7 @@ def getPlugins(inactive=False):
                     web = None
 
                 # Custom dict for the plugin
-                plugin = {"name": i,
+                plugin = {"name": name,
                           "info": inf,
                           "id": a,
                           "screen": conf["screen"],
