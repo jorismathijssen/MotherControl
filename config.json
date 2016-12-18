@@ -1,6 +1,12 @@
-{"webserver": {
+{
+  "webserver": {
     "enabled": true,
     "webport": 8088,
     "apiport": 8089
-    }
+  },
+  "screens": {
+    "weather": "screens/weather",
+    "clock": "screens/clock",
+    "wordclock": "screens/wordclock"
+  }
 }

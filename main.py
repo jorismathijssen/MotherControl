@@ -1,24 +1,14 @@
 #!/usr/bin/env python
+import json
 import os
 import sys
-import json
 
 from kivy.app import App
 from kivy.core.window import Window
-from kivy.graphics import Rectangle, Color
 from kivy.lang import Builder
 from kivy.logger import Logger
-from kivy.properties import ListProperty, StringProperty
-from kivy.uix.screenmanager import ScreenManager, Screen
-from kivy.uix.behaviors import ButtonBehavior
-from kivy.uix.floatlayout import FloatLayout
-from kivy.uix.boxlayout import BoxLayout
-from kivy.uix.label import Label
-from kivy.uix.scrollview import ScrollView
 
-from core.bglabel import BGLabel, BGLabelButton
-from core.getplugins import getPlugins
-from core.hiddenbutton import HiddenButton
+from core.getpluginsNew import getPlugins
 from core.infoscreen import InfoScreen
 
 # Set the current working directory
