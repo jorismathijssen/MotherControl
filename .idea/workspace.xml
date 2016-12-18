@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="46cbe334-8cbd-41b5-9983-182abd3b9204" name="Default" comment="Fixed some missing imports">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/core/getpluginsNew.py" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/getplugins.py" afterPath="$PROJECT_DIR$/core/getplugins.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main.py" afterPath="$PROJECT_DIR$/main.py" />
     </list>
     <ignored path="RPi-InfoScreen-Kivy.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -501,7 +498,6 @@
     <MESSAGE value="New way for defining the order of screens by setting it in the config.json." />
     <MESSAGE value="Fixed some missing imports" />
     <option name="LAST_COMMIT_MESSAGE" value="Fixed some missing imports" />
-    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
