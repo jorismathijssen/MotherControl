@@ -147,3 +147,5 @@ fabric.properties
 # *.ipr
 
 /screens/weather/conf.json
+/.desinger
+/.idea
